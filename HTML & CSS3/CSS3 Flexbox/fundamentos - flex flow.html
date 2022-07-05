@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex Flow</title>
+
+    <style>
+        .flex-container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 500px;
+            margin-bottom: 10px;
+        }
+
+        .defaut{
+            flex-flow: row nowrap;
+        }
+
+        .wrap{
+            flex-flow: row wrap;
+        }
+
+        .wrap-reverse{
+            flex-flow: row wrap-reverse;
+        }
+
+        .rowreverse-nowrap{
+            flex-flow: row-reverse nowrap;
+        }
+
+        .rowreverse-wrap{
+            flex-flow: row-reverse wrap;
+        }
+
+        .tudoreverso{
+            flex-flow: row-reverse wrap-reverse;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>default: row nowrap</h1>
+    <div class="flex-container defaut">
+        <dive class="item">1</dive>
+        <dive class="item">2</dive>
+        <dive class="item">3</dive>
+        <dive class="item">4</dive>
+        <dive class="item">5</dive>
+    </div>
+
+    <h1>wrap</h1>
+    <div class="flex-container wrap">
+        <dive class="item">1</dive>
+        <dive class="item">2</dive>
+        <dive class="item">3</dive>
+        <dive class="item">4</dive>
+        <dive class="item">5</dive>
+        <dive class="item">6</dive>
+    </div>
+
+    <h1>wrap-reverse</h1>
+    <div class="flex-container wrap-reverse">
+        <dive class="item">1</dive>
+        <dive class="item">2</dive>
+        <dive class="item">3</dive>
+        <dive class="item">4</dive>
+        <dive class="item">5</dive>
+        <dive class="item">6</dive>
+    </div>
+
+    <h1>row-reverse nowrap</h1>
+    <div class="flex-container rowreverse-nowrap">
+        <dive class="item">1</dive>
+        <dive class="item">2</dive>
+        <dive class="item">3</dive>
+        <dive class="item">4</dive>
+        <dive class="item">5</dive>
+        <dive class="item">6</dive>
+    </div>
+
+  <h1>row-reverse wrap</h1>
+    <div class="flex-container rowreverse-wrap">
+        <dive class="item">1</dive>
+        <dive class="item">2</dive>
+        <dive class="item">3</dive>
+        <dive class="item">4</dive>
+        <dive class="item">5</dive>
+        <dive class="item">6</dive>
+    </div>
+
+    <h1>row-reverse wrap-reverse</h1>
+    <div class="flex-container tudoreverso">
+        <dive class="item">1</dive>
+        <dive class="item">2</dive>
+        <dive class="item">3</dive>
+        <dive class="item">4</dive>
+        <dive class="item">5</dive>
+        <dive class="item">6</dive>
+    </div>
+</body>
+</html>

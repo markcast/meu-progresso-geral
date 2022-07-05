@@ -1,0 +1,29 @@
+# Curiosidades sobre a web
+
+Ao final de cada aula do curso **_Primeiros passos de desenvolvimento web_**, o professor Bruno Prado atiçava nossa curiosidade, nos fazendo pesquisar sobre coisas tão comuns no nosso dia-a-dia, que raramente paramos para saber sua origem. E estou aqui para compartilhar um pouco do que eu aprendi.
+
+
+
+1. Em 1984, foram criados os sete primeiros domínios de primeiro nível (TLDs), que nada mais são que as terminações dos endereços web, como por exemplo: ".com", ".net", ".org". Dentre esses, o primeiro a ser oficialmente registrado foi domínio _symbolics.com_, em 1985, por uma fabricante de computadores em Massachusetts, nos Estados Unidos.
+
+   
+
+2. O primeiro blog a ser criado foi por um brasileiro :heart_eyes:. Seu nome era Claudio Pinhanez, e criou um site chamado _Open Diary_, com o objetivo de contar um pouco sobre a sua vida de cientista, já que trabalhava no MIT Media Lab. Depois dele, várias pessoas criaram blogs que realmente funcionavam como diários pessoais, com os mais diversos temas.
+
+   
+
+3. Apesar do Symbolic ser o primeiro domínio a ser criado, o primeiro site a ser mundialmente acessível foi o _infor.cern.ch_, criado pelo físico e cientista da computação o britânico Tim Berners-Lee, conhecido por ser o inventor da internet. o site era uma cartilha de como usar a _world wide web_, nossa querida WWW.
+
+   
+
+4. O primeiro produto a ser comprado na internet foi um CD do cantor Sting, em 11 de agosto de 1994.
+
+   
+
+5. O Brasil é o único país no mundo a usar o sistema de Boleto Bancário. ]
+
+   
+
+6.  A década de 1980 marca a representação no Brasil da American Express e o lançamento do cartão de débito pelo Bradesco.
+
+Essas foram algumas curiosidades que, conforme eu vou aprendendo, irei trazer mais. Até a próxima! :smile:
