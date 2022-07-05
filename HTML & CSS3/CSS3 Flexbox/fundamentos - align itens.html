@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align itens</title>
+
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+        .center{
+            align-items: center;
+        }
+        .start{
+            align-items: flex-start;
+        }
+        .end{
+            align-items: flex-end;
+        }
+        .baseline{
+            align-items: baseline;
+        }
+        .stretch{
+            align-items: stretch;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .central{
+            height: 300px;
+            justify-content: center;
+        }
+        .central .item{
+            flex: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>row (linha)</h1>
+    <p>flex-start</p>
+    <section class="container start">
+        <div class="item">item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+    <p>flex-end</p>
+    <section class="container end">
+        <div class="item">item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+    <p>center</p>
+    <section class="container center">
+        <div class="item">item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+    <p>baseline</p>
+    <section class="container baseline">
+        <div class="item"><br>item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+    <p>stretch</p>
+    <section class="container stretch">
+        <div class="item">item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+
+    <h1>column(coluna)</h1>
+
+    <p>flex-start</p>
+    <section class="container start column">
+        <div class="item">item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+    <p>flex-end</p>
+    <section class="container end column">
+        <div class="item">item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+    <p>center</p>
+    <section class="container center column">
+        <div class="item">item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+    <p>baseline</p>
+    <section class="container baseline column">
+        <div class="item"><br>item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+    <p>stretch</p>
+    <section class="container stretch column">
+        <div class="item">item 1</div>
+        <div class="item">Deixai para trás toda a preguiça, vós que comeceis o Bootcamp</div>
+        <div class="item">Apenas mais um item para exemplo</div>
+    </section>
+    <p>central</p>
+    <section class="container central center">
+        <dive class="item">Deixei para trás toda a preguiça, vós que comeceis o Bootcamp</dive>
+    </section>
+</body>
+</html>

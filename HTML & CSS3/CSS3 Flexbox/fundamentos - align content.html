@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - algin content</title>
+    <style>
+        .container{
+            height: 350px;
+            max-width: 300px;
+            display: flex;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .start{
+            align-content: flex-start;
+        }
+        .end{
+            align-content: flex-end;
+        }
+        .center{
+            align-content: center;
+        }
+        .between{
+            align-content: space-between;
+        }
+        .around{
+            align-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">deixai</div>
+        <div class="item">deixai para trás</div>
+        <div class="item">deixai para trás toda preguiça</div>
+        <div class="item">vós que</div>
+        <div class="item">comeceis o Botcamp</div>
+        <div class="item">Bootcamp, Dant</div>
+        <div class="item">Apenas um texto</div>
+    </div>
+    <p>flex-start</p>
+    <div class="container start">
+        <div class="item">deixai</div>
+        <div class="item">deixai para trás</div>
+        <div class="item">deixai para trás toda preguiça</div>
+        <div class="item">vós que</div>
+        <div class="item">comeceis o Botcamp</div>
+        <div class="item">Bootcamp, Dant</div>
+        <div class="item">Apenas um texto</div>
+    </div>
+    <p>flexend</p>
+    <div class="container end">
+        <div class="item">deixai</div>
+        <div class="item">deixai para trás</div>
+        <div class="item">deixai para trás toda preguiça</div>
+        <div class="item">vós que</div>
+        <div class="item">comeceis o Botcamp</div>
+        <div class="item">Bootcamp, Dant</div>
+        <div class="item">Apenas um texto</div>
+    </div>
+    <p>center</p>
+    <div class="container center">
+        <div class="item">deixai</div>
+        <div class="item">deixai para trás</div>
+        <div class="item">deixai para trás toda preguiça</div>
+        <div class="item">vós que</div>
+        <div class="item">comeceis o Botcamp</div>
+        <div class="item">Bootcamp, Dant</div>
+        <div class="item">Apenas um texto</div>
+    </div>
+    <p>space-between</p>
+    <div class="container between">
+        <div class="item">deixai</div>
+        <div class="item">deixai para trás</div>
+        <div class="item">deixai para trás toda preguiça</div>
+        <div class="item">vós que</div>
+        <div class="item">comeceis o Botcamp</div>
+        <div class="item">Bootcamp, Dant</div>
+        <div class="item">Apenas um texto</div>
+    </div>
+    <p>space-around</p>
+    <div class="container around">
+        <div class="item">deixai</div>
+        <div class="item">deixai para trás</div>
+        <div class="item">deixai para trás toda preguiça</div>
+        <div class="item">vós que</div>
+        <div class="item">comeceis o Botcamp</div>
+        <div class="item">Bootcamp, Dant</div>
+        <div class="item">Apenas um texto</div>
+    </div>
+</body>
+</html>
